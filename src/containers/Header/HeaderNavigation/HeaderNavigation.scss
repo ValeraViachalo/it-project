@@ -1,0 +1,10 @@
+.header-navigatiion {
+  display: flex;
+  gap: 120px;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: inherit;
+  }
+}

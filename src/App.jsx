@@ -1,8 +1,8 @@
 import React from 'react';
 import './main.scss';
 
+import { Header } from './containers/Header';
+
 export const App = () => (
-  <h1 className="title">
-    Hello from App.tsx
-  </h1>
+  <Header />
 );

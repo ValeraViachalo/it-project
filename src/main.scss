@@ -1,7 +1,10 @@
-.title {
-  color: #004;
+@import "./styles/global-imports";
+@import "./styles/utils/reset";
 
-  &:after {
-    content: " (styles workin yeee)))";
-  }
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
 }
