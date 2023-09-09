@@ -2,7 +2,7 @@ import contentServices from './ServicesContent/ServicesContent.json';
 import './Services.scss';
 
 export const Services = () => (
-  <div className="container services">
+  <div className="container services" id="services">
     <h1>
       <span className="blue-text">
         Наші
