@@ -6,6 +6,7 @@ import { Hero } from './containers/Hero';
 import { WhyUs } from './containers/WhyUs';
 import { Services } from './containers/Services';
 import { Сontacts } from './containers/Сontacts';
+import { Footer } from './components/Footer';
 
 export const App = () => (
   <div className="app">
@@ -18,5 +19,7 @@ export const App = () => (
     <Services />
 
     <Сontacts />
+
+    <Footer />
   </div>
 );

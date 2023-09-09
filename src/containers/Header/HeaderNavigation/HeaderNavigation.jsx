@@ -1,16 +1,12 @@
 import { Button } from '../../../components/Button';
-import './HeaderNavigation.scss';
+import { AboutUsLinks } from '../../../components/AboutUsLinks';
 
-const NAVIGATION_LINKS = {
-  'Послуги': 'services',
-  'Чому саме ми': 'why-us',
-  'Контакти': 'contacts',
-}
+import './HeaderNavigation.scss';
 
 export const HeaderNavigation = () => (
   <nav className="header-navigatiion">
     <ul className="header-navigatiion__list">
-      {Object.entries(NAVIGATION_LINKS).map(([label, containerName]) => (
+      {Object.entries(AboutUsLinks).map(([label, containerName]) => (
         <li key={containerName}>
           <a href={`#${containerName}`}>
             {label}
