@@ -1,0 +1,20 @@
+.contacts {
+  margin-top: 136px;
+  position: relative;
+
+  &__content {
+    width: 598px;
+  }
+
+  &__main-text {
+    margin-bottom: 30px;
+  }
+
+  &__image {
+    z-index: -1;
+
+    position: absolute;
+    right: -70px;
+    top: 54px;
+  }
+}

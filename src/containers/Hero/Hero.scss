@@ -33,17 +33,6 @@
     margin-left: 130px;
   }
 
-  &--lines {
-    position: absolute;
-    top: 236px;
-    left: -68px;
-
-    height: 120%;
-    width: 110%;
-    background: url("../../images/icons/lines.svg") no-repeat;
-
-    z-index: -1;
-  }
   
   &--first-arrow,
   &--second-arrow {

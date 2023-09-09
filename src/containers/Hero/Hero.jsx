@@ -1,3 +1,4 @@
+import { Lines } from '../../components/Lines/Lines';
 import { RoundLink } from '../../components/RoundLink/RoundLink';
 import HeroImage from '../../images/hero-page.png';
 
@@ -38,7 +39,7 @@ export const Hero = () => (
           <RoundLink />
         </div>
       </div>
-        <div className="hero--lines" />
+        <Lines />
         <div className="hero--first-arrow" />
         <div className="hero--second-arrow" />
     </div>

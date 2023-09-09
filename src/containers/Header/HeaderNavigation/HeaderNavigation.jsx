@@ -19,6 +19,9 @@ export const HeaderNavigation = () => (
       ))}
     </ul>
 
-    <Button content={'Замовити'} />
+    <Button
+      content={'Замовити'}
+      container={'Header'}
+    />
   </nav>
   );

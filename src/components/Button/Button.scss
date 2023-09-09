@@ -1,8 +1,17 @@
 @import "../../styles/global-imports";
 
-.button {
-  padding: 34px;
-  background-color: $c-blue;
-  color: $c-white;
-  border: none;
+.button {  
+  &--blue {
+    padding: 34px;
+    border: none;
+    background-color: $c-blue;
+    color: $c-white;
+  }
+
+  &--contacts {
+    background-color: $c-white;
+    color: $c-blue;
+    border: 1px solid $c-blue;
+    padding: 30px 80px;
+  }
 }
