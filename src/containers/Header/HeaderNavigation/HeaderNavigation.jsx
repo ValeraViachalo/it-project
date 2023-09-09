@@ -12,7 +12,7 @@ export const HeaderNavigation = () => (
     <ul className="header-navigatiion__list">
       {Object.entries(NAVIGATION_LINKS).map(([label, containerName]) => (
         <li key={containerName}>
-          <a href={`/${containerName}`}>
+          <a href={`#${containerName}`}>
             {label}
           </a>
         </li>

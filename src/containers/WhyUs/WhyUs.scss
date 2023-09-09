@@ -1,0 +1,19 @@
+@import "../../styles/global-imports";
+
+.why-us {
+  margin-top: 330px;
+  
+  &__content {
+    display: flex;
+    
+    margin-top: 20px;
+  }
+  
+  &__text {
+    width: 608px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
