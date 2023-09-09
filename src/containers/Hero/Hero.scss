@@ -1,0 +1,78 @@
+@import "../../styles/global-imports";
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+
+  position: relative;
+  
+  margin-top: 38px;
+
+  &__titles {
+    width: 592px;
+    margin-bottom: 16px;
+
+    &--title {
+      line-height: 70px;
+      text-transform: uppercase;
+    }
+
+    &--subtitle {
+      color: $c-blue;
+    }
+  }
+
+  &__main-content {
+    &--text {
+      margin-bottom: 26px;
+      width: 556px;
+    }
+  }
+
+  &__link-arrow {
+    margin-left: 130px;
+  }
+
+  &--lines {
+    position: absolute;
+    top: 236px;
+    left: -68px;
+
+    height: 120%;
+    width: 110%;
+    background: url("../../images/icons/lines.svg") no-repeat;
+
+    z-index: -1;
+  }
+  
+  &--first-arrow,
+  &--second-arrow {
+    position: absolute;
+
+    background: url("../../images/icons/hero-image-1.svg") no-repeat;
+    
+    height: 96%;
+    width: 34%;
+
+    z-index: -1;
+  }
+
+  &--first-arrow {
+    top: 310px;
+    left: 14px;
+  }
+
+  &--second-arrow {
+    transform: scaleX(-1);
+
+    overflow: hidden;
+
+    top: 300px;
+    right: -56px;
+
+    width: 30%;
+
+    background-position: -100px;
+  }
+}
