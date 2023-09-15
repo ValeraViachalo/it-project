@@ -1,5 +1,5 @@
-import { AboutUsLinks } from '../AboutUsLinks';
-import { Button } from '../Button';
+import { AboutUsLinks } from '../../components/AboutUsLinks';
+import { Button } from '../../components/Button';
 import './Footer.scss';
 
 const DOCUMENTS = ['Публiчна оферта', 'Полiтика конфiденційності'];
@@ -20,10 +20,12 @@ export const Footer = () => (
       </div>
 
       <div className="footer__bottom">
-        <Button 
-          content={'Зв`яжіться зі мною'}
-          container={'footer'}
-        />
+        <div className="footer--button">
+          <Button 
+            content={'Зв`яжіться зі мною'}
+            container={'footer'}
+          />
+        </div>
 
         <div className="footer__links">
           <div className="footer__about-us">
@@ -46,6 +48,7 @@ export const Footer = () => (
           <p className="blue-text footer__links--link-title">
               Документи
             </p>
+
               <ul className="footer__links__list">
                 {DOCUMENTS.map(currentLink => (
                   <li key={currentLink}>

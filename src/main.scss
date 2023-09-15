@@ -1,7 +1,0 @@
-@import "./styles/global-imports";
-@import "./styles/utils/reset";
-
-html {
-  @extend %body-text;
-  scroll-behavior: smooth;
-}

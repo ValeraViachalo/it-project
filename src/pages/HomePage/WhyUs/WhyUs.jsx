@@ -1,14 +1,22 @@
 import './WhyUs.scss';
-import WhyUsImage from '../../images/why-us.png';
+import WhyUsImage from '../../../images/why-us.png';
 
 export const WhyUs = () => (
-  <div className="container" id="why-us">
+  <div className="container">
     <div className="why-us">
       <h1 className="why-us--title">
         Чому варто обрати
         <span className="blue-text">
           &nbsp;
           нас?
+        </span>
+      </h1>
+
+      <h1 className="why-us--title-mobile">
+        Чому
+        <span className="blue-text">
+          &nbsp;
+          ми?
         </span>
       </h1>
 
@@ -31,10 +39,11 @@ export const WhyUs = () => (
           </p>
         </div>
 
-        <div className="why-us__image">
+        <div>
           <img
             src={WhyUsImage}
-            alt="Analizing"
+            alt="Analizing" 
+            className="why-us--image"
           />
         </div>
       </div>

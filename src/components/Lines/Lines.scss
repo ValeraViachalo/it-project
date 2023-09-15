@@ -1,3 +1,5 @@
+@import "../../styles/global-imports";
+
 .lines {
   position: absolute;
   top: 236px;
@@ -8,4 +10,24 @@
   background: url("../../images/icons/lines.svg") no-repeat;
 
   z-index: -1;
+  
+  @include onTablet {
+    top: 660px;
+    left: -68px;
+  
+    height: 76%;
+    width: 120%;
+
+    background-size: contain;
+  }
+  
+  @include onMobile {
+    top: 356px;
+    left: -28px;
+  
+    height: 36%;
+    width: 114%;
+
+    background-size: contain;
+  }
 }

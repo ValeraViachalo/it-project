@@ -1,10 +1,37 @@
+@import "../../../styles/global-imports";
+
 .header-navigatiion {
   display: flex;
   gap: 120px;
+
+  @include onTablet {
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  @include onMobile {
+    display: none;
+  }
+  
+  &--button {
+    width: 182px;
+    height: 98px;
+
+    @include onTablet {
+      width: 138px;
+      height: 70px;
+    }
+  }
 
   &__list {
     display: flex;
     align-items: center;
     gap: inherit;
+  }
+
+  &--item {
+    &-active {
+      color: $c-blue;
+    }
   }
 }

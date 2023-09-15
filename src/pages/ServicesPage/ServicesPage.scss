@@ -1,0 +1,56 @@
+@import "../../styles/global-imports";
+
+.services-page {
+  &__head {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    min-width: 100vw;
+    height: 470px;
+    background: url("../../images/services.png") center no-repeat;
+    background-size: cover;
+
+    @include onMobile {
+      height: 294px;
+    }
+    
+    &--link {
+      @include onDesktop {
+        position: absolute;
+        top: 285px;
+        left: 566px;
+      }
+      
+      @include onMobile {
+        position: absolute;
+        top: 210px;
+      }
+    }
+
+
+    &-content {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+
+  &--title {
+    color: $c-white;
+  }
+
+  &__content {
+    margin: 0 auto;
+    max-width: 1248px;
+
+    @include onTablet {
+      max-width: 100%;
+    }
+
+    @include onMobile {
+      max-width: 288px;
+    }
+  }
+}

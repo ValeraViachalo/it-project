@@ -9,5 +9,11 @@
   padding-top: 10px;
   height: 100px;
   
-  border-bottom: 1px solid $c-blue;
+  @include onTablet {
+    gap: 30px;
+  }
+
+  @include onMobile {
+    height: 50px;
+  }
 }

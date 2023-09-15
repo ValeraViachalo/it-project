@@ -1,6 +1,6 @@
-import { Lines } from '../../components/Lines/Lines';
-import { RoundLink } from '../../components/RoundLink/RoundLink';
-import HeroImage from '../../images/hero-page.png';
+import { Lines } from '../../../components/Lines/Lines';
+import { RoundLink } from '../../../components/RoundLink/RoundLink';
+import HeroImage from '../../../images/hero-page.png';
 
 import './Hero.scss';
 

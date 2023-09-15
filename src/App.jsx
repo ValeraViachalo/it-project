@@ -1,25 +1,33 @@
 import React from 'react';
-import './main.scss';
+import {
+  HashRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import './App.scss';
 
 import { Header } from './containers/Header';
-import { Hero } from './containers/Hero';
-import { WhyUs } from './containers/WhyUs';
-import { Services } from './containers/Services';
-import { Сontacts } from './containers/Сontacts';
-import { Footer } from './components/Footer';
+import { HomePage } from './pages/HomePage/HomePage';
+import { Footer } from './containers/Footer';
+import { ServicesPage } from './pages/ServicesPage/ServicesPage';
 
 export const App = () => (
-  <div className="app">
-    <Header />
-  
-    <Hero />
+  <HashRouter>
+    <div className="app">
+      <div className="app__header">
+        <Header />
+      </div>
 
-    <WhyUs />
+      <div className="app__main">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/services" element={<ServicesPage />} />
+          </Routes>
+      </div>
 
-    <Services />
-
-    <Сontacts />
-
-    <Footer />
-  </div>
+      <div className="app__footer">
+        <Footer />
+      </div>
+    </div>
+  </HashRouter>
 );

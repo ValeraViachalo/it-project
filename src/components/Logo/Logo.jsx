@@ -1,8 +1,11 @@
+import { NavLink } from 'react-router-dom';
 
 export const Logo = () => (
   <div className="logo">
-    <p>
+    <NavLink
+      to="/"
+    >
       LOGOTYPE
-    </p>
+    </NavLink>
   </div>
 );

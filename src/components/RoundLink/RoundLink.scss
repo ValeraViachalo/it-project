@@ -11,10 +11,30 @@
     background-color: $c-blue;
 
     border-radius: 100%;
+
+    @include onTablet {
+      height: 90px;
+      width: 90px;
+    }
+    
+    @include onMobile {  
+      height: 60px;
+      width: 60px;
+    }
   }
 
   &--arrow {
     width: 44px;
     height: 44px;
+
+    @include onTablet {
+      width: 66px;
+      height: 66px;
+    }
+
+    @include onMobile {
+      width: 38px;
+      height: 38px;
+    }
   }
 }
