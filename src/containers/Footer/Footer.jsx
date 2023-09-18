@@ -23,7 +23,7 @@ export const Footer = () => (
         <div className="footer--button">
           <Button 
             content={'Зв`яжіться зі мною'}
-            container={'footer'}
+            color={'blue'}
           />
         </div>
 

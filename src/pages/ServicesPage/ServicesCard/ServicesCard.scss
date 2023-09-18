@@ -1,22 +1,18 @@
 @import "../../../styles/global-imports";
 
 .services-card {
-  &__list {
-    margin-top: 70px;
+  &--button {
+    height: 130px;
     
-    &--button {
-      height: 130px;
-      
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      left: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 
-      z-index: 2;
+    z-index: 2;
 
-      @include onMobile {
-        height: 64px;
-      }
+    @include onMobile {
+      height: 64px;
     }
   }
   

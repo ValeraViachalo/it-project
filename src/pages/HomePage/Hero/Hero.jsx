@@ -36,7 +36,7 @@ export const Hero = () => (
         </div>
 
         <div className="hero__link-arrow">
-          <RoundLink />
+          <RoundLink color={'blue'} />
         </div>
       </div>
         <Lines />

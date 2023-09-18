@@ -20,7 +20,7 @@ export const Сontacts = () => (
       <div className="contacts--button">
         <Button
           content={'Замовити'}
-          container={'contacts'}
+          color={'white'}
         />
       </div>
     </div>

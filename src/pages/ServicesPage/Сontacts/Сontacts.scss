@@ -10,6 +10,7 @@
 
   &__photos {
     position: relative;
+    margin-top: 30px;
   }
 
   &__content {
@@ -31,12 +32,12 @@
 
     @include onTablet {
       margin: 0 auto;
-      width: 706px;
+      width: 670px;
     }
 
     @include onMobile {
-      width: 356px;
-      margin: 0 0 0 -20px;
+      width: 100%;
+      margin: 44px 0 0 -20px;
     }
   }
 

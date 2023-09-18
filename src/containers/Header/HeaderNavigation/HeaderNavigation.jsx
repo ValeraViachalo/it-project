@@ -29,7 +29,7 @@ export const HeaderNavigation = () => (
     <div className="header-navigatiion--button">      
       <Button
         content={'Замовити'}
-        container={'Header'}
+        color={'blue'}
       />
     </div>
   </nav>

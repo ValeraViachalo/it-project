@@ -34,6 +34,7 @@ export const AboutUs = () => (
           <div className="about-us--button">
             <Button 
               content={'Зв\'яжіться зі мною'}
+              color={'blue'}
             />
           </div>
         </div>

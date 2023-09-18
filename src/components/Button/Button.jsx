@@ -1,10 +1,10 @@
 import classNames from 'classnames';
 import "./Button.scss";
 
-export const Button = ({ content, container }) => {
+export const Button = ({ content, color }) => {
   const buttonClasses = classNames('button', {
-    'button--contacts': container === 'contacts',
-    'button--blue': container !== 'contacts',
+    'button--white': color === 'white',
+    'button--blue': color === 'blue',
   });
 
   return (
