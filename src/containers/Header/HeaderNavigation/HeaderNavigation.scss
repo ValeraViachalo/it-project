@@ -30,8 +30,12 @@
   }
 
   &--item {
+    min-width: max-content;
+
     &-active {
       color: $c-blue;
+
+      @include hover(color, $c-blue);
     }
   }
 }

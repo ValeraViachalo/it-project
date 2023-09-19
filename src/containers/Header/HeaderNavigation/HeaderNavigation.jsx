@@ -15,7 +15,10 @@ export const HeaderNavigation = () => (
   <nav className="header-navigatiion">
     <ul className="header-navigatiion__list">
       {Object.entries(AboutUsLinks).map(([label, containerName]) => (
-        <li key={containerName}>
+        <li
+          key={containerName}
+          className="header-navigatiion--item"
+        >
           <NavLink
             to={containerName}
             className={getNavClass}  

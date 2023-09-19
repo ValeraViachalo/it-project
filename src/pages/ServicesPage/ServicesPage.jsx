@@ -9,20 +9,11 @@ import { Pagination } from 'swiper';
 
 import './Swiper/swiper.scss'; // core Swiper
 import './Swiper/pagination/pagination.scss'; // Pagination module
+import { ServicesPageHead } from './ServicesPageHead/ServicesPageHead';
 
 export const ServicesPage = () => (
   <div className="services-page">
-    <div className="services-page__head">
-      <div className="container services-page__head-content">
-        <h1 className="services-page--title">
-          Наші послуги
-        </h1>
-
-        <div className="services-page__head--link">
-          <RoundLink color={'blue'} />
-        </div>
-      </div>
-    </div>
+    <ServicesPageHead />
 
     <div className="services-page__content">
       <ul className="services-page__list">
