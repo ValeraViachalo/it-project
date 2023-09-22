@@ -1,4 +1,3 @@
-import { RoundLink } from '../../components/RoundLink';
 import { ServicesCard } from './ServicesCard/ServicesCard';
 import { Сontacts } from './Сontacts';
 import  ServicesCardContent from './ServicesCardContent/ServicesCardContent.json';

@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.body {
+  &-with-menu {
+    overflow: hidden;
+  }
+}
+
 .app {
   min-height: 100vh;
   display: flex;

@@ -16,4 +16,10 @@
   @include onMobile {
     height: 50px;
   }
+
+  &--menu {
+    @include onTabletAndDesktop {
+      display: none;
+    }
+  }
 }
