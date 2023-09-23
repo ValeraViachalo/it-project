@@ -11,6 +11,7 @@ import { HomePage } from './pages/HomePage/HomePage';
 import { Footer } from './containers/Footer';
 import { ServicesPage } from './pages/ServicesPage/ServicesPage';
 import { ConsultationPage } from './pages/ConsultationPage/ConsultationPage';
+import { FormPage } from './pages/FormPage/Form/FormPage';
 
 export const App = () => (
   <HashRouter>
@@ -23,7 +24,8 @@ export const App = () => (
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<ServicesPage />} />
-            <Route path='/consultation' element={<ConsultationPage />} />
+            <Route path="/consultation" element={<ConsultationPage />} />
+            <Route path="/form" element={<FormPage/>}/>
           </Routes>
       </div>
 
