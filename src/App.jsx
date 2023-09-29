@@ -1,8 +1,37 @@
 import React from 'react';
-import './main.scss';
+import {
+  HashRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import './App.scss';
+
+import { Header } from './containers/Header';
+import { HomePage } from './pages/HomePage/HomePage';
+import { Footer } from './containers/Footer';
+import { ServicesPage } from './pages/ServicesPage/ServicesPage';
+import { ConsultationPage } from './pages/ConsultationPage/ConsultationPage';
+import { FormPage } from './pages/FormPage/Form/FormPage';
 
 export const App = () => (
-  <h1 className="title">
-    Hello from App.tsx
-  </h1>
+  <HashRouter>
+    <div className="app">
+      <div className="app__header">
+        <Header />
+      </div>
+
+      <div className="app__main">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/consultation" element={<ConsultationPage />} />
+            <Route path="/form" element={<FormPage/>}/>
+          </Routes>
+      </div>
+
+      <div className="app__footer">
+        <Footer />
+      </div>
+    </div>
+  </HashRouter>
 );
