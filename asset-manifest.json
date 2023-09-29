@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ValeraViachalo/it-project/static/css/main.7eb85770.css",
+    "main.js": "/ValeraViachalo/it-project/static/js/main.3573a334.js",
+    "static/media/design-card.png": "/ValeraViachalo/it-project/static/media/design-card.56a42c77c90b1e2b8a95.png",
+    "static/media/analytics-card.png": "/ValeraViachalo/it-project/static/media/analytics-card.689445f2bc569c507c23.png",
+    "static/media/develop-card.png": "/ValeraViachalo/it-project/static/media/develop-card.d24b2ef15441e096bcff.png",
+    "static/media/contacts.png": "/ValeraViachalo/it-project/static/media/contacts.7087bc97094b86d26373.png",
+    "static/media/services.png": "/ValeraViachalo/it-project/static/media/services.24da9d77837f129aa848.png",
+    "static/media/hero-page.png": "/ValeraViachalo/it-project/static/media/hero-page.ad2401949bb4e40ce7e1.png",
+    "static/media/our-priorites.png": "/ValeraViachalo/it-project/static/media/our-priorites.3831954064cc69ce26b7.png",
+    "static/media/why-us.png": "/ValeraViachalo/it-project/static/media/why-us.96b3e258c3d84d1b32a8.png",
+    "static/media/consultation_robot.png": "/ValeraViachalo/it-project/static/media/consultation_robot.0396a224e37f820a59e7.png",
+    "static/media/lines.svg": "/ValeraViachalo/it-project/static/media/lines.d0001446147ab19fad3a.svg",
+    "static/media/cross.svg": "/ValeraViachalo/it-project/static/media/cross.ed037f5a0c7cee05f49c.svg",
+    "static/media/arrow-white.svg": "/ValeraViachalo/it-project/static/media/arrow-white.fb0d29d0191b4cea63da.svg",
+    "static/media/hero-arrow-mobile.svg": "/ValeraViachalo/it-project/static/media/hero-arrow-mobile.b7845b9d6bdfcb94041a.svg",
+    "static/media/hero-image-1.svg": "/ValeraViachalo/it-project/static/media/hero-image-1.eabca649f09700261bcb.svg",
+    "static/media/pixel_arrow-blue.svg": "/ValeraViachalo/it-project/static/media/pixel_arrow-blue.f414a77c8464bac102e09a87f013c33f.svg",
+    "static/media/pixel_arrow.svg": "/ValeraViachalo/it-project/static/media/pixel_arrow.bb6ffe7440029a93ea2172300129cc28.svg",
+    "index.html": "/ValeraViachalo/it-project/index.html",
+    "static/media/menu-burger.svg": "/ValeraViachalo/it-project/static/media/menu-burger.ffb7ec097009573b5540.svg",
+    "main.7eb85770.css.map": "/ValeraViachalo/it-project/static/css/main.7eb85770.css.map",
+    "main.3573a334.js.map": "/ValeraViachalo/it-project/static/js/main.3573a334.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eb85770.css",
+    "static/js/main.3573a334.js"
+  ]
+}
